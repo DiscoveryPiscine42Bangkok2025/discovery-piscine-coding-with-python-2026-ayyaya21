@@ -1,9 +1,6 @@
 from checkmate import checkmate
 
 def run_test_scenario(test_name, board_str):
-    """
-    ฟังก์ชันสำหรับรันเทสเคสและแสดงผลลัพธ์ให้อ่านง่าย
-    """
     print(f"Testing: {test_name}")
     print("Board Preview:")
     print(board_str)
