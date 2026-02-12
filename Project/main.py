@@ -1,6 +1,7 @@
 from checkmate import checkmate
 
 def main():
+### 1 ###
     board = """\
 ....
 ..K.
@@ -8,13 +9,13 @@ def main():
 B...\
 """ 
 
-# def main():
+### 2 ###
 #     board = """\
 # ..
 # .K\
 # """
 
-# def main():
+### 3 ###
 #     board = """\
 # .R..
 # .K..
