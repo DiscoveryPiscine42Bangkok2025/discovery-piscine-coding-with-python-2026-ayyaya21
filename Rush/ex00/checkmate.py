@@ -61,7 +61,7 @@ def threatens_king(board, piece, pos, king_pos):
 
     # Pawn รุกแนวทแยง 1 ช่อง
     if piece == 'P':
-        return (r - kr) == 1 and (c - kc) == 1
+        return (r - kr) == 1 and abs(c - kc) == 1
 
     # Rook และ Queen (แนวนอน / แนวตั้ง)
     if piece in 'RQ':
